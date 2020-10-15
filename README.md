@@ -47,6 +47,7 @@
 - Copie e Renomei `.env.example` O arquivo `.env`
 - Execute `php artisan key:generate`
 - Defina suas credenciais de banco de dados no arquivo `.env`
+- Execute `php artisan migrate`
 
 ### Passo a Passo
 
@@ -65,7 +66,7 @@
 
 `php artisan key:generate` Gerar uma chave, pois este é um projeto clonado
 
-`bower install` (Optional)
+`php artisan migrate` Cria as Tabelas na base de dados definida no arquivo `.env`
 
 `npm run watch` Monitor de alteração (Optional)
 
@@ -118,6 +119,10 @@ Laravel SB Admin 2 usa algumas bibliotecas e pacotes de terceiros. Agradecimento
 `logout`
 
 <img src="https://imgur.com/d9JclOYl.png">
+
+## Como Utilizar
+
+Ao criar views basta estender os Layouts correspondente da pasta `Layouts` e segir as orientações de `@extends` e `@section` para arquivos `.blade` segundo documentação [Laravel](https://laravel.com/docs/)
 
 ## Licença
 
