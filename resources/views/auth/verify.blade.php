@@ -11,17 +11,17 @@
                         <div class="col-lg-6">
                             <div class="p-5">
                                 <div class="text-center">
-                                    <h1 class="h4 text-gray-900 mb-4">{{ __('Verify Your Email Address') }}</h1>
+                                    <h1 class="h4 text-gray-900 mb-4">{{ __('Verifique seu endereço de e-mail') }}</h1>
                                 </div>
 
                                 @if (session('resent'))
                                     <div class="alert alert-success border-left-success" role="alert">
-                                        {{ __('A fresh verification link has been sent to your email address.') }}
+                                        {{ __('Um novo link de verificação foi enviado para seu endereço de e-mail.') }}
                                     </div>
                                 @endif
 
-                                {{ __('Before proceeding, please check your email for a verification link.') }}
-                                {{ __('If you did not receive the email') }}, <a href="{{ route('verification.resend') }}">{{ __('click here to request another') }}</a>.
+                                {{ __('Antes de continuar, verifique seu e-mail para um link de verificação.') }}
+                                {{ __('Se você não recebeu o email') }}, <a href="{{ route('verification.resend') }}">{{ __('click here to request another') }}</a>.
                             </div>
                         </div>
                     </div>

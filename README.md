@@ -1,71 +1,93 @@
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+
+<p align="center">
+
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/fagnerpsantos)](#)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fagnerpsantos/)](#)
+[![Twitter Badge](https://img.shields.io/badge/-Twitter-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/fagnerpsantos)](#)
+[![Youtube Badge](https://img.shields.io/badge/-YouTube-ff0000?style=flat-square&labelColor=ff0000&logo=youtube&logoColor=white&link=https://www.youtube.com/user/TreinaWeb)](#)
+<a href="#"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="#"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="#"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="#"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+
+</p>
+
 # Laravel SB Admin 2
 
-SB Admin 2 for Laravel.
+> Este projeto é parte do famoso tema [SB Admin v2](https://startbootstrap.com/themes/sb-admin-2/) desenvolvido em [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/introduction/) para o popular Framework [Laravel em sua versão 8.x ou 7.x.](https://laravel.com/docs/) Cada estrutura de design do SB Admin é dividida em componentes e slots.
 
-| Laravel Version | Branch |
-|-----------------|--------|
-| 8.0             | master |
-| 7.0             | v7.0   |
-| 6.0             | v6.0   |
-| 5.8             | v5.8   |
+- Saiba mais no [site do Tema](https://startbootstrap.com/themes/sb-admin-2/)
+- Saiba mais na [documentação do Framework](https://laravel.com/docs/)
+- Saiba mais na [documentação da Bibliotáca](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
-## Requirements
+## Requisitos
 
-- PHP >= 7.3.0
-- BCMath PHP Extension
-- Ctype PHP Extension
-- JSON PHP Extension
-- Mbstring PHP Extension
-- OpenSSL PHP Extension
-- PDO PHP Extension
-- Tokenizer PHP Extension
-- XML PHP Extension
+> Este modelo de administração usa o framework Laravel. Se você estiver recebendo algum erro, provavelmente é devido a requisitos não atendidos da própria estrutura.
 
-## Installation
+- PHP >= 7.4.0
+- BCMath PHP
+- Ctype PHP
+- JSON PHP
+- Mbstring PHP
+- OpenSSL PHP
+- PDO PHP
+- Tokenizer PHP
+- XML PHP
+- MySQL
+- [Node.js and NPM](https://docs.npmjs.com/getting-started/installing-node)
+- [Yarn](https://yarnpkg.com/en/docs/install)
+- [Node.js](https://nodejs.org/en/download/)
+- [composer](https://getcomposer.org/download/)
 
-- Clone the repo and `cd` into it
-- Run `composer install`
-- Rename or copy `.env.example` file to `.env`
-- Run `php artisan key:generate`
-- Set your database credentials in your `.env` file
+## Instalação
 
-> This project is a part of the famous Free Admin Bootstrap Theme SB Admin v2.0 to Laravel Theme.
+- Clone o repositório e `cd` acesse o mesmo
+- Execute o comando `composer install`
+- Copie e Renomei `.env.example` O arquivo `.env`
+- Execute `php artisan key:generate`
+- Defina suas credenciais de banco de dados no arquivo `.env`
 
-Find out more [Free Laravel Themes at StartLaravel.com](http://www.startlaravel.com/)..
+### Passo a Passo
 
-1. Clone this project or Download that ZIP file
-2. On your terminal/command prompt do the following commands.
+1. Clone este projeto ou baixe o arquivo ZIP
+`git clone <project-repository>` 
 
-`$ cd <project-directory>` Navigate to the project directory
+2. Em seu terminal (prompt de comando), execute os seguintes comandos:
 
-`$ cp .env.example .env`
+`cd <project-directory>` Acesse  o diretório do projeto
 
-`$ php artisan key:generate`  Generate key since this is a cloned project
+`composer install` Instale os pacotes necessários
 
-`$ composer install`  Install required packages
+`npm install` Instale dependências adicionais
 
-`$ npm install` Install additional depencies
+`copy .env.example .env` Crie o arquivo .env copiando o arquivo .env.example
 
-`$ npm run watch` Optional
+`php artisan key:generate` Gerar uma chave, pois este é um projeto clonado
 
-`$ php artisan cache:clear` Optional
+`bower install` (Optional)
 
-`$ php artisan serve`
+`npm run watch` Monitor de alteração (Optional)
 
-3. Open `http://localhost:8000` in your browser
+`php artisan cache:clear` Limpar cache (Optional)
 
+`php artisan serve` Execute o servidor do Framework
 
-## Note
+3. Acesse `http://localhost:8000` em seu navegador de Internet
 
-Recommend to install this preset on a project that you are starting from scratch, otherwise your project's design might break.
+## Notas
 
-## Credits
+> È recomendado Utilizar os processos deste projeto ao inicio do seu projeto. 
+> Estes procedimentos poderam neutralizar seus designes e ocasionar falhas em seu projeto.
 
-Laravel SB Admin 2 uses some open-source third-party libraries/packages, many thanks to the web community.
+## Créditos
 
-- Laravel - Open source framework.
-- LaravelEasyNav - Making managing navigation in Laravel easy.
-- SB Admin 2 - Thanks to Start Bootstrap.
+Laravel SB Admin 2 usa algumas bibliotecas e pacotes de terceiros. Agradecimentos à comunidade web.
+
+## Referências
+
+- [Alejandro RH - aleckrh](https://github.com/aleckrh/laravel-sb-admin-2)
+- [Avatar Sagar Chamling - cham11ng](https://github.com/cham11ng/sbadmin-laravel)
 
 ## Preview
 
@@ -97,6 +119,19 @@ Laravel SB Admin 2 uses some open-source third-party libraries/packages, many th
 
 <img src="https://imgur.com/d9JclOYl.png">
 
-## License
+## Licença
 
-Licensed under the MIT license.
+Licenciado sob a licença MIT.
+
+## Ferramentas Sugeridas para uso
+
+- Terminal Texto - [Git](https://gitforwindows.org/)
+- Terminal Texto - [Comander](https://cmder.net/)
+- IDE Desenvolvimento - [Sublime Text](https://www.sublimetext.com/)
+- IDE Desenvolvimento - [Visual Studio Code](https://code.visualstudio.com/)
+- IDE Desenvolvimento - [NetBeans](https://netbeans.org/)
+- IDE Desenvolvimento - [Atom](https://atom.io/)
+- Editor de Código - [Notepad++](https://notepad-plus-plus.org/)
+- Emulador de Serviços Web - [Xampp](https://www.apachefriends.org/pt_br/index.html)
+- Emulador de Serviços Web - [WampServer](https://www.wampserver.com/en/)
+- Gerenciado de Banco de Dados - [Workbench](https://www.mysql.com/products/workbench/)
