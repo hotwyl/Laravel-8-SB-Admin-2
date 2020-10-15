@@ -18,6 +18,8 @@
 - Saiba mais na [documentação do Framework](https://laravel.com/docs/)
 - Saiba mais na [documentação da Bibliotáca](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
+***
+
 ## Requisitos
 
 > Este modelo de administração usa o framework Laravel. Se você estiver recebendo algum erro, provavelmente é devido a requisitos não atendidos da própria estrutura.
@@ -37,6 +39,8 @@
 - [Node.js](https://nodejs.org/en/download/)
 - [composer](https://getcomposer.org/download/)
 
+***
+
 ## Instalação
 
 - Clone o repositório e `cd` acesse o mesmo
@@ -45,6 +49,8 @@
 - Execute `php artisan key:generate`
 - Defina suas credenciais de banco de dados no arquivo `.env`
 - Execute `php artisan migrate`
+
+***
 
 ### Passo a Passo
 
@@ -73,59 +79,22 @@
 
 3. Acesse `http://localhost:8000` em seu navegador de Internet
 
+***
+
 ## Notas
 
 > È recomendado Utilizar os processos deste projeto ao inicio do seu projeto. 
 > Estes procedimentos poderam neutralizar seus designes e ocasionar falhas em seu projeto.
 
-## Créditos
+***
 
-Laravel SB Admin 2 usa algumas bibliotecas e pacotes de terceiros. Agradecimentos à comunidade web.
+## Tutoriais
 
-## Referências
-
-- [Alejandro RH - aleckrh](https://github.com/aleckrh/laravel-sb-admin-2)
-- [Avatar Sagar Chamling - cham11ng](https://github.com/cham11ng/sbadmin-laravel)
+***
 
 ## Preview
 
-`login`
-
-<!---
-<img src="https://imgur.com/YjGp6Sbl.png">
--->
-
 ***
-
-`register`
-
-<!---
-<img src="https://imgur.com/Wj09cu4l.png">
--->
-
-***
-
-`dashboard`
-
-<!---
-<img src="https://imgur.com/CrmOfT5l.png">
--->
-
-***
-
-`profile`
-
-<!---
-<img src="https://imgur.com/5t4eS1rl.png">
--->
-
-***
-
-`logout`
-
-<!---
-<img src="https://imgur.com/d9JclOYl.png">
--->
 
 ## Como Utilizar
 
@@ -133,9 +102,26 @@ Ao criar views basta estender os Layouts correspondente da pasta `Layouts` e seg
 
 Você Também poderá criar suas próprias paginas com layout personalisados utilizando [Bootstrap](https://getbootstrap.com/docs/) 
 
+***
+
 ## Licença
 
 Licenciado sob a licença MIT.
+
+***
+
+## Créditos
+
+Laravel SB Admin 2 usa algumas bibliotecas e pacotes de terceiros. Agradecimentos à comunidade web.
+
+***
+
+## Referências
+
+- [Alejandro RH - aleckrh](https://github.com/aleckrh/laravel-sb-admin-2)
+- [Avatar Sagar Chamling - cham11ng](https://github.com/cham11ng/sbadmin-laravel)
+
+***
 
 ## Ferramentas Sugeridas para uso
 
