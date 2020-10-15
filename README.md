@@ -94,31 +94,41 @@ Laravel SB Admin 2 usa algumas bibliotecas e pacotes de terceiros. Agradecimento
 
 `login`
 
+<!---
 <img src="https://imgur.com/YjGp6Sbl.png">
+-->
 
 ***
 
 `register`
 
+<!---
 <img src="https://imgur.com/Wj09cu4l.png">
+-->
 
 ***
 
 `dashboard`
 
+<!---
 <img src="https://imgur.com/CrmOfT5l.png">
+-->
 
 ***
 
 `profile`
 
+<!---
 <img src="https://imgur.com/5t4eS1rl.png">
+-->
 
 ***
 
 `logout`
 
+<!---
 <img src="https://imgur.com/d9JclOYl.png">
+-->
 
 ## Como Utilizar
 
